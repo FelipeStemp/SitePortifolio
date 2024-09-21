@@ -21,8 +21,8 @@ height: auto;
 
 export const Titulo = styled.div`
   width: 100%;
-  text-shadow: 0.15vw 0.15vw 0.15vw #075727;
-  color:#CCAF2D;
+  text-shadow: 0.1vw 0.1vw 0.1vw #10CB5B;
+  color:rgba(139, 5, 226, 1);
   margin-top: 5vh;
   font-size: 3vw;
   

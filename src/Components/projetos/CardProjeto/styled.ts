@@ -14,10 +14,7 @@ margin: 1vw;
 export const ImageCard = styled.img`
 width: 30vw;
 border-radius: 0.5vw;
-&:hover{
-  box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
-  transform: scale(1.01,1.01);
-}
+box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw #10CB5B;
 
 @media(max-width: 720px){
 width: 80vw;
@@ -25,7 +22,6 @@ width: 80vw;
 `
 export const TxtImg = styled.div`
   margin-top: 1vw;
-  border: 1px solid #CCAF2D;
   text-align: center;
   font-size: 1vw;
   overflow-wrap: anywhere;
@@ -33,9 +29,9 @@ export const TxtImg = styled.div`
   height: auto;
   padding: 1vw;
   border-radius: 0.5vw;
-  background-color: #0EB052;
+  background-color: rgba(139, 5, 226, 1);
   color:white;
-  box-shadow: 5px 5px #053B1B;
+  box-shadow: 5px 5px #10CB5B;
   width:30vw;
 
   @media(max-width: 720px){

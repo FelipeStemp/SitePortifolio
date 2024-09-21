@@ -4,11 +4,11 @@ export const HeaderBody = styled.div`
   witdh: 100vw;
   height: 60vh;
   margin: none;
-  background-color: #6D0EB1;
+  background-color: rgba(139, 5, 226, 1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
-  border-bottom: 1px solid #CCAF2D;
+  border-bottom: 3px solid #10CB5B;
   color: white;
   display: flex;
   align-items: flex-end;

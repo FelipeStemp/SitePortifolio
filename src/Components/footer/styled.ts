@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const DivFooter = styled.div`
 height: 50vh;
-background-color: #6D0EB1;
+background-color: rgba(139, 5, 226, 1);
 display: flex;
 align-items: center;
 justify-content: space-between;
-border-top: 1px solid #CCAF2D;
-box-shadow: 0vw 0vw 0vw 0.1vw #26053E;
+border-top: 3px solid #10CB5B;
 
 @media(max-width: 720px){
 display: grid;
