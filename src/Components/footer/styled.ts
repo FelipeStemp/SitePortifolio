@@ -16,12 +16,12 @@ height: auto;
 `
 
 export const SocialMedias = styled.section`
-width: 30vw;
-background-color: blue;
-height: 40vh;
-margin: 3vw;
+margin: 2vw;
+width:40vw;
+display: flex;
+justify-content: space-between;
 @media(max-width: 720px){
-width: 90vw;
+width: 50vw;
 
 }
 `
