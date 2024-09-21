@@ -17,13 +17,13 @@ width: 80vw;
 width:90vw;
 height: auto;
 }
+
 `
 
 export const Titulo = styled.div`
   width: 100%;
   text-shadow: 0.1vw 0.1vw 0.1vw #10CB5B;
   color:rgba(139, 5, 226, 1);
-  margin-top: 5vh;
   font-size: 3vw;
   
   @media(max-width: 1200px){

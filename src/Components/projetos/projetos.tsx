@@ -23,10 +23,10 @@ function Projetos(){
     {id: '4', image: imagem, texto:"Lorem ipsum molestie aliquam tempus hac senectus purus quis sollicitudin ante elementum, fames himenaeos tempor sagittis tempor eleifend nibh"},
   ];
   return(
-    <S.ProjetosBody>
+    <S.ProjetosBody id="projetos">
 
       <S.Titulo>
-        <h1>Projetos</h1>
+        <h2>PROJETOS</h2>
       </S.Titulo>
 
       <S.Cards>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderBody = styled.div`
   witdh: 100vw;
-  height: 40vh;
+  height: 60vh;
   margin: none;
   background-color: rgba(139, 5, 226, 1);
   background-repeat: no-repeat;
@@ -42,8 +42,8 @@ export const ListaLI = styled.li`
 list-style: none;
 margin: 0 5vw 1vw 0;
 font-size: 1.5vw;
-background-color: rgba(0, 0, 0, 0.6);
-padding: 0.3vw;
+background-color: rgba(103, 3, 169, 1);
+padding: 0.6vw;
 border-radius: 0.2vw;
 &:hover{
 box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.4);

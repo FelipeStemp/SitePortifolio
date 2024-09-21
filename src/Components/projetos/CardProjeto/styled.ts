@@ -12,7 +12,7 @@ margin: 1vw;
 `
 
 export const ImageCard = styled.img`
-width: 30vw;
+width: 25vw;
 border-radius: 0.5vw;
 box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw #10CB5B;
 

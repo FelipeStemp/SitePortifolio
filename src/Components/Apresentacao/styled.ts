@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ApBody = styled.div`
 color:white;
-height: auto;
+height: 100vh;
 width: 85vw;
 margin: 5vw 0px 0px 5vw;
 text-align: left;
