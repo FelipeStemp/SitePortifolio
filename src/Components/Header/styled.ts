@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import topo from '../../image/topo.jpeg';
 
 export const HeaderBody = styled.div`
   witdh: 100vw;
   height: 60vh;
   margin: none;
-  background-color: rgba(139, 5, 226, 1);
+  background-image: url(${topo});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
@@ -23,7 +24,7 @@ export const NavHeader = styled.nav`
 display: flex;
 justify-content: left;
 @media(max-width: 1000px){
-font-size: 5vw;
+font-size: 3vw;
 margin: 0px;
 width: 100vw;
 display:flex;
@@ -42,7 +43,7 @@ export const ListaLI = styled.li`
 list-style: none;
 margin: 0 5vw 1vw 0;
 font-size: 1.5vw;
-background-color: rgba(103, 3, 169, 1);
+background-color: rgba(103, 3, 169, 0.8);
 padding: 0.6vw;
 border-radius: 0.2vw;
 &:hover{
@@ -50,7 +51,7 @@ box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.4);
 }
 
 @media(max-width: 800px){
-font-size: 5vw;
+font-size: 3vw;
 margin: 20px;
 }
 `
