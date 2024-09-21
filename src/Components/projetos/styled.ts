@@ -27,5 +27,6 @@ export const Titulo = styled.div`
   font-size: 3vw;
   @media(max-width: 1200px){
   font-size: 4vw;
+  margin:0px;
   }
 `
