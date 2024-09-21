@@ -2,25 +2,24 @@ import styled from "styled-components";
 
 export const HeaderBody = styled.div`
   witdh: 100vw;
-  height: 60vh;
+  height: 40vh;
   margin: none;
   background-color: rgba(139, 5, 226, 1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
   border-bottom: 3px solid #10CB5B;
+  justify-content:center;
   color: white;
   display: flex;
   align-items: flex-end;
   @media(max-width: 1000px){
-  height: auto;
   display:grid;
-  
+  margin-bottom: 5vw;
   }
 `
 
 export const NavHeader = styled.nav`
-margin-left: 20%;
 display: flex;
 justify-content: left;
 @media(max-width: 1000px){
@@ -53,27 +52,5 @@ box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.4);
 @media(max-width: 800px){
 font-size: 5vw;
 margin: 20px;
-}
-`
-
-export const DivImagem = styled.div`
-text-align: center;
-
-`
-
-export const ImagemPerfil = styled.img`
-border-radius: 100%;
-width: 20vw;
-@media(max-width:720px){
-  width:50vw;
-}
-`
-export const NomeText = styled.p`
-font-size: 2vw;
-background-color: rgba(0, 0, 0, 0.6);
-padding: 0.3vw;
-border-radius: 0.2vw;
-@media(max-width:720px){
-  font-size: 4vw;
 }
 `

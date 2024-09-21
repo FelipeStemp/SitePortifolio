@@ -1,13 +1,20 @@
-import * as S from './styled'
+
+import imagem from '../../image/test.jpg';
+import * as S from './styled';
 
 function Apresentacao(){
-  return(
+
+  return (
     <S.ApBody>
+      <S.DivImg src={imagem} />
       <S.TxtApresenta>
-      Olá! Meu nome é Felipe Stempkowski e sou desenvolvedor especializado em tecnologias web e mobile. Trabalho com linguagens como JavaScript, TypeScript e frameworks como React e Node.js. Tenho paixão por criar soluções inovadoras e funcionais que atendam às necessidades dos usuários. Sempre busco aprender novas ferramentas e aprimorar minhas habilidades técnicas. Fique à vontade para conhecer meus projetos e discutir ideias interessantes!
+        <h1>SOBRE NOS</h1>
+        Olá! Meu nome é Felipe Stempkowski e sou desenvolvedor especializado em tecnologias web e mobile...
       </S.TxtApresenta>
+
+      
     </S.ApBody>
-  )
+  );
 }
 
 export default Apresentacao

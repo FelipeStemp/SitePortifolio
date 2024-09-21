@@ -12,7 +12,7 @@ height: 100vh;
 
 export const Cards = styled.section`
 display: flex;
-width: 50vw;
+width: 80vw;
 @media(max-width:720px){
 width:90vw;
 height: auto;
