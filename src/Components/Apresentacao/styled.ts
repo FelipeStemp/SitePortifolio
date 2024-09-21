@@ -35,8 +35,8 @@ font-size: 4vw;
 margin-top: 10vw;
 }
 @media(max-width: 1000px){
-width: 90vw;
-font-size: 2.5vw;
+width: 80vw;
+font-size: 3vw;
 margin-top: 10vw;
 }
 `

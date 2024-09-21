@@ -11,7 +11,10 @@ function Footer(){
   return(
     <S.DivFooter>
       <S.SocialMedias>
-        <ImagemFormat imagem={insta} width='3vw'/>
+        <a href="https://www.instagram.com/eh.duarda/">
+          <ImagemFormat imagem={insta} width='3vw'/>
+        </a>
+        
         <ImagemFormat imagem={face} width='3vw'/>
         <ImagemFormat imagem={linkedin} width='3vw'/>
       </S.SocialMedias>

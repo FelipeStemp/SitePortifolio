@@ -37,10 +37,10 @@ export const TxtImg = styled.div`
   @media(max-width: 720px){
   width:auto;
   margin: 0px 10px 0px 10px;
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 @media(max-width: 1000px){
-font-size: 2vw;
+font-size: 3vw;
 }
 `
