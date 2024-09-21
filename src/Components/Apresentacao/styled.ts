@@ -11,6 +11,10 @@ border-radius: 1vw;
 @media(max-width: 1025px){
 margin:auto;
 width: 95%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20vw;
+margin-top: 20vw;
 }
 
 `

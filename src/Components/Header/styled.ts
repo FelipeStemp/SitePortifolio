@@ -15,6 +15,7 @@ export const HeaderBody = styled.div`
   @media(max-width: 1000px){
   height: auto;
   display:grid;
+  
   }
 `
 
@@ -57,6 +58,7 @@ margin: 20px;
 
 export const DivImagem = styled.div`
 text-align: center;
+
 `
 
 export const ImagemPerfil = styled.img`
