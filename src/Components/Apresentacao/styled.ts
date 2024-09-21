@@ -9,7 +9,8 @@ text-align: left;
 background-color: #0EB052;
 border-radius: 1vw;
 @media(max-width: 1025px){
-width: 80vw;
+margin:auto;
+width: 95%;
 }
 
 `
@@ -19,7 +20,7 @@ font-size: 1.3vw;
 box-shadow: 0.5vw 0.5vw #053B1B;
 border-radius: 1vw;
 padding: 1vw;
-@media(max-width: 1025px){
-font-size: 2.5vw;
+@media(max-width: 720px){
+font-size: 4vw;
 }
 `
