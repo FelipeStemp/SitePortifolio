@@ -34,7 +34,12 @@ function Projetos(){
         <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={2}
-            slidesPerView={2}
+            slidesPerView={1}
+            breakpoints={{
+              720: {
+                slidesPerView: 2,
+              },
+            }}
             navigation
             onSlideChange={() => console.log('slide change')}
           >

@@ -23,7 +23,7 @@ width: 80vw;
 export const TxtImg = styled.div`
   margin-top: 1vw;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.2vw;
   overflow-wrap: anywhere;
   overflow: hidden;
   height: auto;
@@ -38,5 +38,9 @@ export const TxtImg = styled.div`
   width:auto;
   margin: 0px 10px 0px 10px;
   font-size: 4vw;
+}
+
+@media(max-width: 1000px){
+font-size: 2vw;
 }
 `

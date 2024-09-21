@@ -23,7 +23,7 @@ margin-top: 20vw;
 
 export const TxtApresenta = styled.div`
 font-size: 1.3vw;
-box-shadow: 0.2vw 0.3vw #10CB5B;
+box-shadow: 0.5vw 0.5vw #10CB5B;
 background-color: rgba(139, 5, 226, 1);
 border-radius: 1vw;
 padding: 1vw;
@@ -32,6 +32,11 @@ padding: 10px;
 @media(max-width: 720px){
 width: 90vw;
 font-size: 4vw;
+margin-top: 10vw;
+}
+@media(max-width: 1000px){
+width: 90vw;
+font-size: 2.5vw;
 margin-top: 10vw;
 }
 `
