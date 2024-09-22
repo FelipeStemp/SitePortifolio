@@ -11,6 +11,7 @@ function Footer(){
     <S.DivFooter id="footer">
       <S.SocialMedias>
         <ButtonAll
+          color='white'
           estilo="a"
           width='auto'
           height='5vw'
@@ -26,6 +27,7 @@ function Footer(){
         </ButtonAll>
 
         <ButtonAll
+          color='white'
           estilo="a"
           width='auto'
           height='5vw'
@@ -41,6 +43,7 @@ function Footer(){
         </ButtonAll>
 
         <ButtonAll
+          color='white'
           estilo="a"
           width='auto'
           height='5vw'
