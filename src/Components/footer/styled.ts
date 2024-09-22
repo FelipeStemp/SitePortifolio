@@ -17,11 +17,11 @@ height: auto;
 
 export const SocialMedias = styled.section`
 margin: 2vw;
-width:40vw;
+width:auto;
 display: flex;
 justify-content: space-between;
 @media(max-width: 720px){
-width: 50vw;
-
+width: 80vw;
+display: grid;
 }
 `

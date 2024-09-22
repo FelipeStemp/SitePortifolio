@@ -13,7 +13,7 @@ margin: 1vw;
 
 export const ImageCard = styled.img`
 width: 25vw;
-border-radius: 0.5vw;
+border-radius: 1vw;
 box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw #10CB5B;
 
 @media(max-width: 720px){
@@ -28,7 +28,7 @@ export const TxtImg = styled.div`
   overflow: hidden;
   height: auto;
   padding: 1vw;
-  border-radius: 0.5vw;
+  border-radius: 1vw;
   background-color: rgba(139, 5, 226, 1);
   color:white;
   box-shadow: 5px 5px #10CB5B;

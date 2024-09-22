@@ -1,7 +1,7 @@
-import { imagemProps } from "./props";
+import { Props } from "../../PropsInterface/props"
 import * as S from './styled';
 
-function ImagemFormat({width, imagem, radius}: imagemProps){
+function ImagemFormat({width, imagem, radius}: Props){
   return(
     <S.ImagemFormat
     width={width}

@@ -1,8 +1,8 @@
 import * as S from "./styled"
-import { InputProps } from "./props"
+import { Props } from "../../PropsInterface/props"
 
 
-function InputFormat({type, placeholder, margin, width, height, color, radius, border, shadow, background }: InputProps){
+function InputFormat({padding, type, placeholder, margin, width, height, color, radius, border, shadow, background }: Props){
     return(
             <S.InputAll
                 width={width}
@@ -15,6 +15,7 @@ function InputFormat({type, placeholder, margin, width, height, color, radius, b
                 margin={margin}
                 placeholder={placeholder}
                 type={type}
+                padding={padding}
             >
             </S.InputAll>
     )
