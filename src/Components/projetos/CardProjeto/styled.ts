@@ -29,7 +29,7 @@ export const TxtImg = styled.div`
   height: auto;
   padding: 1vw;
   border-radius: 1vw;
-  background-color: rgba(139, 5, 226, 1);
+  background-color: #6B10B1;
   color:white;
   box-shadow: 5px 5px #10CB5B;
   width:30vw;

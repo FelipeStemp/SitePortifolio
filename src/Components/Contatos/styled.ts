@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const ContatoBody = styled.div`
-height: 100vh;
+height: 80vh;
 display: flex;
 align-items: center;
 justify-content: center;
 `
 
 export const FormContato = styled.form`
-background-color: rgba(139, 5, 226, 1);
+background-color: #6B10B1;
 color: white;
 max-width:22vw;
 display: grid;

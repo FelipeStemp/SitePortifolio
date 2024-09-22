@@ -3,9 +3,9 @@ import topo from '../../image/topo.jpeg';
 
 export const HeaderBody = styled.div`
   witdh: 100vw;
-  height: 60vh;
+  height: 20vh;
   margin: none;
-  background-image: url(${topo});
+  background:#6B10B1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; 
@@ -44,6 +44,7 @@ list-style: none;
 margin: 0 5vw 1vw 0;
 font-size: 1.5vw;
 background-color: rgba(103, 3, 169, 0.8);
+box-shadow: 0.2vw 0.2vw #10CB5B;
 padding: 0.6vw;
 border-radius: 0.2vw;
 &:hover{

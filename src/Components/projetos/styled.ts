@@ -2,9 +2,12 @@ import styled from "styled-components";
 
 export const ProjetosBody = styled.div`
 width: 100vw;
-height: 100vh;
+height: auto;
 display:grid;
 justify-content: center;
+@media(max-width:720px){
+height: 100vh;
+}
 `
 
 export const Cards = styled.section`

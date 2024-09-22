@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DivFooter = styled.div`
 height: auto;
-background-color: rgba(139, 5, 226, 1);
+background-color: #6B10B1;
 display: flex;
 align-items: center;
 justify-content: center;
