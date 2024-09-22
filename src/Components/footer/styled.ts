@@ -16,7 +16,6 @@ height: auto;
 `
 
 export const SocialMedias = styled.section`
-margin: 2vw;
 width:auto;
 display: flex;
 justify-content: space-between;
