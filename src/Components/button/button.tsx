@@ -1,9 +1,10 @@
 import * as S from './styled'
 import { Props } from "../../PropsInterface/props"
 
-function ButtonAll({gap, alignItens, justify, estilo ="button", href, textDecoration, display, padding, children, width, height, color, background, margin, border, radius, shadow, type}:Props){
+function ButtonAll({ cursor, onClick, gap, alignItens, justify, estilo ="button", href, textDecoration, display, padding, children, width, height, color, background, margin, border, radius, shadow, type}:Props){
     return(
         <S.ButtonContainer
+            onClick={onClick}
             as={estilo} // Renderiza como um link
             href={href}
             target="_blank"
@@ -22,6 +23,8 @@ function ButtonAll({gap, alignItens, justify, estilo ="button", href, textDecora
             justify={justify}
             alignItens={alignItens}
             gap={gap}
+            cursor={cursor}
+            
         >
             {children}
         </S.ButtonContainer>

@@ -20,6 +20,7 @@ width:90vw;
 `
 
 export const Titulo = styled.h1`
+  font-weight:800;
   width: 100%;
   text-shadow: 0.1vw 0.1vw 0.1vw #10CB5B;
   color:rgba(139, 5, 226, 1);

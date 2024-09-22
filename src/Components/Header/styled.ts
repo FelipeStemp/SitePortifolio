@@ -39,7 +39,10 @@ display: contents;
 }
 `
 
-export const ListaLI = styled.li`
+export const BtnNav = styled.button`
+font-weight:600;
+color:white;
+border:none;
 list-style: none;
 margin: 0 5vw 1vw 0;
 font-size: 1.5vw;
@@ -49,6 +52,7 @@ padding: 0.6vw;
 border-radius: 0.2vw;
 &:hover{
 box-shadow: 0.5vw 0.5vw rgba(0, 0, 0, 0.4);
+cursor:pointer;
 }
 
 @media(max-width: 800px){

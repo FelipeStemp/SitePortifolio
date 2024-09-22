@@ -55,6 +55,7 @@ function Contato(){
                     shadow='0.1vw 0.1vw #10CB5B'
                     type='submit'
                     padding="10px"
+                    cursor='pointer'
                 >
                     ENVIAR
                 </ButtonAll>

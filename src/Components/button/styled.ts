@@ -17,4 +17,7 @@ text-decoration: ${(props) => props.textDecoration};
 justify-content: ${(props) => props.justify};
 align-items: ${(props) => props.alignItens};
 gap: ${(props) => props.gap};
+&:hover{
+cursor: ${(props) => props.cursor};
+}
 `

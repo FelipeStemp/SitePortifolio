@@ -21,4 +21,6 @@ export interface Props {
     alignItens?:string,
     imagem?: string,
     gap?:string,
+    onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    cursor?:string;
 }

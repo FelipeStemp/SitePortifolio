@@ -6,9 +6,10 @@ function HeaderAp(){
     <S.HeaderBody>
       <S.NavHeader>
         <S.ListaUL>
-          <S.ListaLI onClick={() => scrollToSection('footer')}>CONTATOS</S.ListaLI>
-          <S.ListaLI onClick={() => scrollToSection('projetos')}>PROJETOS</S.ListaLI>
-          <S.ListaLI onClick={() => scrollToSection('apresenta')}>SOBRE NÓS</S.ListaLI>
+          <S.BtnNav onClick={() => scrollToSection('footer')}>CONTATOS</S.BtnNav>
+          <S.BtnNav onClick={() => scrollToSection('projetos')}>PROJETOS</S.BtnNav>
+          <S.BtnNav onClick={() => scrollToSection('apresenta')}>SOBRE NÓS</S.BtnNav>
+
         </S.ListaUL>
       </S.NavHeader>
 
