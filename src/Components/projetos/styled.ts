@@ -3,11 +3,8 @@ import styled from "styled-components";
 export const ProjetosBody = styled.div`
 width: 100vw;
 height: 100vh;
-display:ruby;
+display:grid;
 justify-content: center;
-@media(max-width:720px){
-height: 100vh;
-}
 `
 
 export const Cards = styled.section`
@@ -15,18 +12,17 @@ display: flex;
 width: 80vw;
 @media(max-width:720px){
 width:90vw;
-height: auto;
 }
 
 `
 
-export const Titulo = styled.div`
+export const Titulo = styled.h1`
   width: 100%;
   text-shadow: 0.1vw 0.1vw 0.1vw #10CB5B;
   color:rgba(139, 5, 226, 1);
-  font-size: 3vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:auto;
   
-  @media(max-width: 1200px){
-  font-size: 4vw;
-  }
 `

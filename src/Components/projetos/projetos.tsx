@@ -26,7 +26,7 @@ function Projetos(){
     <S.ProjetosBody id="projetos">
 
       <S.Titulo>
-        <h2>PROJETOS</h2>
+        PROJETOS
       </S.Titulo>
 
       <S.Cards>
